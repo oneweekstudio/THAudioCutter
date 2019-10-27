@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment version="4096" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="THAudioCutterView" customModule="THAudioCutter" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="eMZ-Ow-any"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="250"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uak-DV-keI">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="250"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="erI-yb-ZIe">
+                            <rect key="frame" x="10" y="10" width="394" height="230"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p3E-MZ-zYE" userLabel="Box">
+                                    <rect key="frame" x="0.0" y="0.0" width="394" height="200"/>
+                                    <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Htk-lZ-E0t" userLabel="Box Time">
+                                    <rect key="frame" x="0.0" y="200" width="394" height="30"/>
+                                    <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="30" id="xlJ-3A-dCi"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="Htk-lZ-E0t" firstAttribute="top" secondItem="p3E-MZ-zYE" secondAttribute="bottom" id="CMe-G8-cA2"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstItem="erI-yb-ZIe" firstAttribute="leading" secondItem="Uak-DV-keI" secondAttribute="leading" constant="10" id="3yb-As-JDu"/>
+                        <constraint firstItem="erI-yb-ZIe" firstAttribute="top" secondItem="Uak-DV-keI" secondAttribute="top" constant="10" id="4Ak-dZ-92y"/>
+                        <constraint firstAttribute="trailing" secondItem="erI-yb-ZIe" secondAttribute="trailing" constant="10" id="5wB-e0-vRN"/>
+                        <constraint firstAttribute="bottom" secondItem="erI-yb-ZIe" secondAttribute="bottom" constant="10" id="FXb-JH-dCE"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Uak-DV-keI" firstAttribute="leading" secondItem="Oz1-9C-SjH" secondAttribute="leading" id="BMM-g2-YgV"/>
+                <constraint firstItem="Oz1-9C-SjH" firstAttribute="trailing" secondItem="Uak-DV-keI" secondAttribute="trailing" id="U4O-8J-PAg"/>
+                <constraint firstItem="Oz1-9C-SjH" firstAttribute="bottom" secondItem="Uak-DV-keI" secondAttribute="bottom" id="cSO-dr-SUv"/>
+                <constraint firstItem="Uak-DV-keI" firstAttribute="top" secondItem="Oz1-9C-SjH" secondAttribute="top" id="nsF-Xw-Utd"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="Oz1-9C-SjH"/>
+            <point key="canvasLocation" x="132" y="117"/>
+        </view>
+    </objects>
+</document>
