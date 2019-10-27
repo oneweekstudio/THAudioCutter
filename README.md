@@ -17,12 +17,12 @@ THAudioCutter is available through [CocoaPods](https://cocoapods.org). To instal
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'THAudioCutter'
+pod 'THAudioCutter', :git => 'https://github.com/oneweekstudio/THAudioCutter.git'
 ```
 
 ## Author
 
-oneweekstudio, oneweekstudio@gmail.com
+TruongKhanhHung, hungsangtoi@gmail.com
 
 ## License
 

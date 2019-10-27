@@ -28,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02EF8C75D9C707886FA7CBD0 /* THAudioCutter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = THAudioCutter.podspec; path = ../THAudioCutter.podspec; sourceTree = "<group>"; };
+		02EF8C75D9C707886FA7CBD0 /* THAudioCutter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = THAudioCutter.podspec; path = ../THAudioCutter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		08FD68113DC8094F96CDB79F /* Pods-THAudioCutter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THAudioCutter_Example.debug.xcconfig"; path = "Target Support Files/Pods-THAudioCutter_Example/Pods-THAudioCutter_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		0C8CF732349CFBE2280953B0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0C8CF732349CFBE2280953B0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		38418837620E37C4D0FDB418 /* Pods_THAudioCutter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_THAudioCutter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F43E75DAE77954B990FE401 /* Pods-THAudioCutter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THAudioCutter_Example.release.xcconfig"; path = "Target Support Files/Pods-THAudioCutter_Example/Pods-THAudioCutter_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* THAudioCutter_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = THAudioCutter_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,7 +44,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		961068CE9F27044F7C5954A5 /* Pods-THAudioCutter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THAudioCutter_Tests.debug.xcconfig"; path = "Target Support Files/Pods-THAudioCutter_Tests/Pods-THAudioCutter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E3498A7B49E3C9938508A314 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E3498A7B49E3C9938508A314 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E79B1D81CED4011BEEDF7112 /* Pods-THAudioCutter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THAudioCutter_Tests.release.xcconfig"; path = "Target Support Files/Pods-THAudioCutter_Tests/Pods-THAudioCutter_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EA52B33253B79EB0694020D4 /* Pods_THAudioCutter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_THAudioCutter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -147,7 +147,6 @@
 				961068CE9F27044F7C5954A5 /* Pods-THAudioCutter_Tests.debug.xcconfig */,
 				E79B1D81CED4011BEEDF7112 /* Pods-THAudioCutter_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

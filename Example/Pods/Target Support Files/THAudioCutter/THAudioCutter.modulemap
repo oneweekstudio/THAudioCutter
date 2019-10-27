@@ -1,0 +1,6 @@
+framework module THAudioCutter {
+  umbrella header "THAudioCutter-umbrella.h"
+
+  export *
+  module * { export * }
+}

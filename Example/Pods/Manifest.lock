@@ -1,0 +1,16 @@
+PODS:
+  - THAudioCutter (0.1.0)
+
+DEPENDENCIES:
+  - THAudioCutter (from `../`)
+
+EXTERNAL SOURCES:
+  THAudioCutter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  THAudioCutter: 3d0434db1d737bfa219848466262daa1b17d9471
+
+PODFILE CHECKSUM: 37c0148efa88ea47b015ab8945c5d61b6814d148
+
+COCOAPODS: 1.8.4
