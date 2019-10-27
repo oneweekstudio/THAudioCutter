@@ -12,10 +12,11 @@
 		0B21CD4BE7A9CA65CFEEF0253237A10B /* THAudioCutter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5D960CBAECB8B53BA5C20DB05806C75 /* THAudioCutter-dummy.m */; };
 		42A18697155BD46BFE0F1ECE4258A8FD /* Pods-THAudioCutter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F93A9740A6EF5287AE136380CB86A79 /* Pods-THAudioCutter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		505E6AD4D5AB36714F1D59801ED7A0A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		69DB0E09236583CC000D4731 /* THAudioCutterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DB0E08236583CC000D4731 /* THAudioCutterView.swift */; };
+		69DB0E0B236583F1000D4731 /* THAudioCutterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69DB0E0A236583F1000D4731 /* THAudioCutterView.xib */; };
 		78FE1077E5B1D75FC0CFBE9EEBAF2E35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		A05BB9E41CA76CFFEE4300634C6B6B03 /* Pods-THAudioCutter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC558B68D9015F26599BC75B7BE5B58 /* Pods-THAudioCutter_Tests-dummy.m */; };
 		A37F2BCA6FB9380ABD84FAD2C0002EEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		CC0AF5CD660FAE77E8D6AEAA2B0B3D52 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967219DFFFB3E5D1AC93924D61200439 /* ReplaceMe.swift */; };
 		D644BCE94EE5F600523E4BF6E697ABA1 /* Pods-THAudioCutter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EABDF3CE379008B7161A88A236793C3E /* Pods-THAudioCutter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -39,14 +40,16 @@
 /* Begin PBXFileReference section */
 		0B3D1AC9AB9C30748FC5CEDC4D2C8700 /* THAudioCutter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "THAudioCutter-umbrella.h"; sourceTree = "<group>"; };
 		121B5B21A38D705187468795B545698B /* Pods-THAudioCutter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-THAudioCutter_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1F73B78795845A4763AA093DFF2130E7 /* THAudioCutter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = THAudioCutter.framework; path = THAudioCutter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		239A586A13C7A5E7A1B28BC019CAA657 /* THAudioCutter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = THAudioCutter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2A97193E90D91A8387BD258431B0E2C2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1F73B78795845A4763AA093DFF2130E7 /* THAudioCutter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = THAudioCutter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		239A586A13C7A5E7A1B28BC019CAA657 /* THAudioCutter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = THAudioCutter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2A97193E90D91A8387BD258431B0E2C2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		2FA610B4A344B9E453CFAE0BB8CA7033 /* Pods-THAudioCutter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-THAudioCutter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3AC558B68D9015F26599BC75B7BE5B58 /* Pods-THAudioCutter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-THAudioCutter_Tests-dummy.m"; sourceTree = "<group>"; };
-		51249E11D7FB114C02B3CF501DE5E8ED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		61EC515D5D0B9EEA98F53D56986C8C55 /* Pods_THAudioCutter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_THAudioCutter_Example.framework; path = "Pods-THAudioCutter_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51249E11D7FB114C02B3CF501DE5E8ED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		61EC515D5D0B9EEA98F53D56986C8C55 /* Pods_THAudioCutter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_THAudioCutter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69DB0E08236583CC000D4731 /* THAudioCutterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THAudioCutterView.swift; sourceTree = "<group>"; };
+		69DB0E0A236583F1000D4731 /* THAudioCutterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = THAudioCutterView.xib; sourceTree = "<group>"; };
 		6AFB03B6C7DDFA0F5B3BC18BFEA1F54B /* Pods-THAudioCutter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-THAudioCutter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		78FC8379FBB88C94C9E3607FCDF32559 /* Pods-THAudioCutter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-THAudioCutter_Example-frameworks.sh"; sourceTree = "<group>"; };
 		7B34F7568D03AFB453AF59E4368E167A /* THAudioCutter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = THAudioCutter.xcconfig; sourceTree = "<group>"; };
@@ -55,9 +58,8 @@
 		8CA328BDA337324C0E4F7C80905F0170 /* Pods-THAudioCutter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-THAudioCutter_Tests.modulemap"; sourceTree = "<group>"; };
 		8CE1FAD679B514827DECB36577771516 /* Pods-THAudioCutter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-THAudioCutter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8E851F1614AD75B79E43DB125D633BE3 /* THAudioCutter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = THAudioCutter.modulemap; sourceTree = "<group>"; };
-		967219DFFFB3E5D1AC93924D61200439 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = THAudioCutter/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		989ECBE080E6AD50E5D2C24860C2C731 /* Pods-THAudioCutter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-THAudioCutter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EF6501649D0F477CE1386D7843FAAFD /* Pods-THAudioCutter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-THAudioCutter_Example-dummy.m"; sourceTree = "<group>"; };
 		A0DFED34B1E1761146EF342E1DA37BA5 /* THAudioCutter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "THAudioCutter-prefix.pch"; sourceTree = "<group>"; };
 		CD0C1CE3439DBDE77D0CBD4F5BF5A7B8 /* Pods-THAudioCutter_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-THAudioCutter_Example-Info.plist"; sourceTree = "<group>"; };
@@ -67,7 +69,7 @@
 		E919E1A55FC4C53B0004300479BED045 /* Pods-THAudioCutter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-THAudioCutter_Example.modulemap"; sourceTree = "<group>"; };
 		E9A0252611EC3A3F5907C461FE4B0D68 /* Pods-THAudioCutter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-THAudioCutter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EABDF3CE379008B7161A88A236793C3E /* Pods-THAudioCutter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-THAudioCutter_Tests-umbrella.h"; sourceTree = "<group>"; };
-		F380C06A9C338234E93C419048125376 /* Pods_THAudioCutter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_THAudioCutter_Tests.framework; path = "Pods-THAudioCutter_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F380C06A9C338234E93C419048125376 /* Pods_THAudioCutter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_THAudioCutter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD822B76A42D7229E1B7BE71C9D162AA /* THAudioCutter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "THAudioCutter-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,6 +115,15 @@
 			path = "Example/Pods/Target Support Files/THAudioCutter";
 			sourceTree = "<group>";
 		};
+		69DB0E07236582F9000D4731 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				69DB0E08236583CC000D4731 /* THAudioCutterView.swift */,
+				69DB0E0A236583F1000D4731 /* THAudioCutterView.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		A13CF0FF7672E307D020662F2AFA8944 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,7 +136,7 @@
 		AA1FC624C731A6C3889C74CF698D5383 /* THAudioCutter */ = {
 			isa = PBXGroup;
 			children = (
-				967219DFFFB3E5D1AC93924D61200439 /* ReplaceMe.swift */,
+				69DB0E07236582F9000D4731 /* Classes */,
 				E81A1552A3F6C8B41F6B45BCC61A522B /* Pod */,
 				64CF32A93214A00DD4C6EB9D33FE90FC /* Support Files */,
 			);
@@ -315,6 +326,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					1BBECE04464CDE61AFE65C1ED33B80B0 = {
+						LastSwiftMigration = 1110;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -340,6 +356,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69DB0E0B236583F1000D4731 /* THAudioCutterView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,7 +397,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC0AF5CD660FAE77E8D6AEAA2B0B3D52 /* ReplaceMe.swift in Sources */,
+				69DB0E09236583CC000D4731 /* THAudioCutterView.swift in Sources */,
 				0B21CD4BE7A9CA65CFEEF0253237A10B /* THAudioCutter-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +424,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7B34F7568D03AFB453AF59E4368E167A /* THAudioCutter.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -427,6 +445,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -438,6 +457,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7B34F7568D03AFB453AF59E4368E167A /* THAudioCutter.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -586,8 +606,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
