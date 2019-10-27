@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'THAudioCutter_Example' do
+  pod 'THAudioCutter', :path => '../'
+
+  target 'THAudioCutter_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
