@@ -1,12 +1,11 @@
 //
-//  UIVIew+Ext.swift
+//  UIView+Ext.swift
 //  THAudioCutter
 //
 //  Created by Hung Truong Khanh on 10/27/19.
 //
 
 import Foundation
-
 
 extension UIView {
     func fixInView(_ container: UIView!) -> Void{
